@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">hello this is a description on this survey</p>
+    <form id="survey-form">
+      <input id="name" required placeholder="Tinkerbell"><label id="name-label">Name</input>
+      <input id="email" type="email" required placeholder="...@gmail.com"><label id="email-label">Email</input>
+      <input id="number" type="number" min="5" max="15" required placeholder="(509)---"><label id="number-label">Number</input>
+      <select id="dropdown">
+        <option>option</option>
+        <option>hello</option>
+        <option>goodbye</option>
+    <label>
+      <input type="radio" value="happy" name="user-recommend" grouped>Unhappy</input>
+    </label>
+    <label>
+      <input type="radio" value="sad" name="user-recommend">Sad</input>
+    </label>
+    <label>
+      <input type="radio" value="angry" name="user-recommend">Angry</input>
+    </label>
+    <label>
+      <input type="radio" value="angry" name="user-recommend">Frustrated</input>
+    </label>
+      <input type="checkbox" value="struggle">Financially Struggles</input>
+      <input type="checkbox" value="struggle">Living Struggles</input>
+      <input type="checkbox" value="struggle">Communication Struggles</input>
+      <textarea>Life has been difficult lately...</textarea>
+      <input type="submit" id="submit"></input>
+    </form>
+  </body>
+</html>
